@@ -64,7 +64,7 @@
 
 html,body {
   font-family: 'Suit';
-  overflow: hidden;
+
 }
 
 /* 노말라이즈 */
@@ -84,6 +84,7 @@ a {
   background-image:url(imgs/imgi_26_bg_main_img3.png);
   background-size: cover;
   z-index: -1;
+
 }
 
 .header_box {
@@ -102,7 +103,8 @@ a {
 .header_box > .main_logo > .logo_b {
   width: 140px;
   height: 29px;
-  padding:10px;
+  padding: 20px;
+  padding-bottom:25px;
 }
 
 .header_box > .main_logo {
@@ -191,5 +193,54 @@ a {
 .header_box {
   background-color: transparent;
   transition: background-color 0.3s ease;
-  border: 1px solid red;
+}
+
+.title-box {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+
+.main-title  {
+  color: #fff;
+  font-size: 3vw;
+  font-weight: 900;
+  margin-top: 250px;
+  white-space: nowrap;
+}
+
+.main-logo-text  {
+  color: #fff;
+  font-size: 15vw;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+/* page-2 */
+
+.page-2 {
+  width: 1920px;
+  height: 1080px;
+  background-color: #fff;
+  position: relative;
+}
+
+.page-2-img {
+  position: absolute;
+  left: 15%;
+  top: 15%;
+}
+
+.page-2-text {
+  font-size: 50px;
+  font-weight: 900;
+  position: absolute;
+  right: 15%;
+  top: 40%;
 }
