@@ -173,6 +173,16 @@ a {
   }
 }
 
+.main_menu ul > li > .sub_menu-1 {
+  padding-right: 250px;
+} 
+.main_menu ul > li > .sub_menu-2 {
+  padding-left: 150px;
+} 
+.main_menu ul > li > .sub_menu-3 {
+  padding-left: 400px;
+} 
+
 .main_menu ul > li > ul > li {
   height: 100%;
   display: flex;
